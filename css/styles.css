@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;    
+}
+
+body {
+    margin: 0;
+}
+
+.max-width-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  /* padding-left: 16px;
+  padding-right: 16px; */
+}
+
+.result-box {
+  background-color: #7755FF;
+}
+
+h1 {
+  color: #CAC9FF;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.summary-box {
+
+}
