@@ -4,33 +4,131 @@
   box-sizing: border-box;
 }
 
-html {
-    font-size: 16px;    
-}
-
 body {
+    height: 100%;
     margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
-.max-width-wrapper {
+.max-width-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column wrap;
-  /* padding-left: 16px;
-  padding-right: 16px; */
+  min-height: 100%;
+ 
 }
 
+.content-wrapper {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap; */
+  /* height: 809px; */
+}
 .result-box {
-  background-color: #7755FF;
+  background: linear-gradient(#7755FF, #6943FF, #2F2CE9);
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-flow: column wrap;
+  height: 356px;
+  width: 375px;
+  margin: 0;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 h1 {
   color: #CAC9FF;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
+  line-height: 23.45px;
+  padding: 0;
+  margin: 0;
+  margin-top: 24px;
 }
+
+.result-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background: linear-gradient(#4D21C9 0%, rgba(37, 33, 201, 0) 100%,
+  rgba(37, 33, 201, 0) 100%);
+  padding: 0;
+  margin: 0;
+  margin-top: 21px;
+}
+
+.result-score-box {
+  width: 63px;
+  height: 93px;
+  padding: 0;
+  margin: 0;
+}
+.total-score {
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 72px;
+  padding: 0;
+  margin: 0;
+}
+
+.total-count {
+  color: #CAC9FF;
+  text-align: center;
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 20.85px;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31.27px; 
+  padding: 0;
+  margin: 0;
+  margin-top: 24px;
+}
+
+.result-box-message {
+  color: #CAC9FF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20.85px; 
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 8px;
+  padding-left: 58px;
+  padding-right: 57px;
+}
+
 .summary-box {
 
+}
+
+h2 {
+  color: #303B59;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: left;
+  vertical-align: top;
+  margin: 24px;
+  /* margin-left: 24px; */
+  padding: 0;
+  
+}
+
+footer {
+  text-align: center;
 }
