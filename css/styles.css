@@ -18,13 +18,9 @@ body {
  
 }
 
-.content-wrapper {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column wrap; */
-  /* height: 809px; */
-}
+/* .content-wrapper {
+
+} */
 .result-box {
   background: linear-gradient(#7755FF, #6943FF, #2F2CE9);
   display: flex;
@@ -131,4 +127,10 @@ h2 {
 
 footer {
   text-align: center;
+  font-size: 18px;
+}
+
+footer a {
+  color: hotpink;
+  font-weight: 700;
 }
