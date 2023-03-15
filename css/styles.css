@@ -114,7 +114,7 @@ h3 {
 /* Summary Box  */
 h2 {
   color: #303B59;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 18px;
   line-height: 100%;
   text-align: left;
@@ -158,7 +158,7 @@ h2 {
 .reaction-div-1 p {
   margin: 0;
   color: #FF5555;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 500;
   padding-left: 12px;
 }
@@ -184,7 +184,7 @@ h2 {
 
 .memory-div-1 p {
   color: #FFB21E;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 500;
   padding-left: 12px;
   margin: 0;
@@ -212,7 +212,7 @@ h2 {
 .verbal-div-1 p {
   margin: 0;
   color: #00BB8F;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 500;
   padding-left: 12px;
 }
@@ -239,7 +239,7 @@ h2 {
 .visual-div-1 p {
   margin: 0;
   color: #1125D6;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 500;
   padding-left: 12px;
 }
@@ -292,18 +292,100 @@ footer p {
 /**************** Desktop View *********************/
 /***************************************************/
 @media (min-width: 1200px) {
-  .max-width-container {
-    
+  body {
+    background-color: #EBF2FF;
   }
+
+/**** Result Box ****/
   .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
   }
-  .result-box {
+
+  .result-box,
+  .summary-box {
     height: 512px;
-    width: 368px;
   }
 
+  .content-wrapper {
+    border-radius: 25px;
+  }
+
+  .result-box {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-top: 38px;
+  }
+
+  .result-circle {
+    height: 200px;
+    width: 200px;
+    margin-top: 35px;
+  }
+
+  .total-score {
+    font-size: 72px;
+  }
+
+  .total-count {
+    font-size: 18px;
+    line-height: 23.45px;
+  }
+
+  h3 {
+    font-size: 32px;
+    line-height: 41.7px; 
+    margin-top: 28px;
+  }
+
+  .result-box-message {
+    font-size: 18px;
+    line-height: 23.45px;
+    margin-top: 14px;
+  }
+
+/**** Summary Box ****/
+  h2 {
+    font-size: 24px;
+    line-height: 31.27px;
+    margin-top: 38px;
+    margin-bottom: 28px;
+    margin-left: 40px;
+  }
+  .skills-box,
+  .button {
+    width: 288px;
+  }
+
+  .button {
+    cursor: pointer;
+  }
+  .button:hover {
+    background: linear-gradient(#7755FF, #6943FF, #2F2CE9);;
+  }
+  .visual {
+    margin-bottom: 41px;
+  }
+
+  .reaction-div-1 p,
+  .memory-div-1 p,
+  .verbal-div-1 p,
+  .visual-div-1 p {
+    font-size: 18px;
+    line-height: 23.45px;
+  }
+
+  .reaction-div-2,
+  .memory-div-2,
+  .verbal-div-2,
+  .visual-div-2 {
+    font-size: 18px;
+    line-height: 23.45px;
+  }
 }
