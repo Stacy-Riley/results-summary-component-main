@@ -164,7 +164,10 @@ h2 {
 }
 
 .reaction-div-2 {
-  padding-right: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 16px 18px 0;
+  margin: 0;
 }
 
 /* Memory */
@@ -191,7 +194,10 @@ h2 {
 }
 
 .memory-div-2 {
-  padding-right: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 16px 18px 0;
+  margin: 0;
 }
 
 /* Verbal */
@@ -218,7 +224,10 @@ h2 {
 }
 
 .verbal-div-2 {
-  padding-right: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 16px 18px 0;
+  margin: 0;
 }
 
 /* Visual */
@@ -245,7 +254,10 @@ h2 {
 }
 
 .visual-div-2 {
-  padding-right: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 16px 18px 0;
+  margin: 0;
 }
 
 /* Continue Button */
