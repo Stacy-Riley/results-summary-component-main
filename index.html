@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;700&family=Outfit:wght@400;700&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
-
+<script src="js/script.js" defer></script>
 <title>Frontend Mentor | Results summary component</title>
 
 </head>
@@ -33,57 +33,60 @@
         <h2>Summary</h2>
         <div class="summary-wrapper">
           <div class="reaction skills-box">
-            <figure><img src="img/icon-reaction.svg" alt="reaction icon"></figure>
-            <div>  
-            <p>Reaction</p>
+            <div class="reaction-div-1"> 
+              <img src="img/icon-reaction.svg" alt="reaction icon">
+              <p>Reaction</p>
             </div>
-            <div><p>80<span>/ 100</span></p></div>
+            <div class="reaction-div-2">
+              <p class="reaction-number"></p>
+              <p><span>/ 100</span></p>
+            </div>
           </div>
 
           <div class="memory skills-box">
-            <figure><img src="img/icon-memory.svg" alt="memory icon"></figure>
-            <div><p>Memory</p></div>
-            <div><p>92<span>/ 100</span></p></div>
+            <div class="memory-div-1">
+              <img src="img/icon-memory.svg" alt="memory icon">
+              <p>Memory</p>
+            </div>
+            <div class="memory-div-2">
+              <p class="memory-number"></p>
+              <p><span>/ 100</span></p>
+            </div>
           </div>
           
           <div class="verbal skills-box">
-            <figure><img src="img/icon-verbal.svg" alt="verbal icon"></figure>
-            <div><p>Verbal</p></div>
-            <div><p>61<span>/ 100</span></p></div>
+            <div class="verbal-div-1">
+              <img src="img/icon-verbal.svg" alt="verbal icon">
+              <p>Verbal</p></div>
+            <div class="verbal-div-2">
+              <p class="verbal-number"></p>
+              <p><span>/ 100</span></p>
+            </div>
           </div>
 
           <div class="visual skills-box">
-            <figure><img src="img/icon-visual.svg" alt="visual icon"></figure>
-            <div><p>Visual</p></div>
-            <div><p>73<span>/ 100</span></p></div>
+            <div class="visual-div-1">
+              <img src="img/icon-visual.svg" alt="visual icon">
+              <p>Visual</p>
+            </div>
+            <div class="visual-div-2">
+              <p class="visual-number"></p>
+              <p><span>/ 100</span></p>
+            </div>
           </div>
+        
+        <div class="button">
+          <a href="#">Continue</a>
         </div>
-        <!-- <ul>
-          <li>
-            <p>Reaction</p>
-            <p>80/100</p>
-          </li>
-          <li>
-            <p>Memory</p>
-            <p>92/100</p>
-          </li>
-          <li>
-            <p>Verbal</p>
-            <p>61/100</p>
-          </li>
-          <li>
-            <p>Visual</p>
-            <p>72/100</p>
-          </li>
-        </ul> -->
-        <a href="#">Continue</a>
+        </div>
       </div>
     </div>
   </div>
   
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.frontendmentor.io/profile/Stacy-Riley">Stacy Riley</a>.
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p> 
+    <p>Coded by <a href="https://www.frontendmentor.io/profile/Stacy-Riley">Stacy Riley</a>.</p>
   </footer>
+
 </body>
 </html>
