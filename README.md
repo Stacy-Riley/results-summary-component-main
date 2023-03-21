@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Stacy-Riley/results-summary-component-main)
+- Live Site URL: (https://stacy-riley.github.io/results-summary-component-main/)
 
 ## My process
 I began with the mobil design then added code to adjust the design to the desktop viewport.  Once the app was complete with HTML and CSS, I added the JavaScript functions to request the data from the api and then applied it to the proper HTML fields to display it.
