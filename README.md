@@ -59,14 +59,27 @@ This JS code snippet is using the operation Object.values() on the newly created
 ```js
 Object.values(scoreData).forEach(val => scoreArray.push(val.score));
 ```
+Another thing that I learned while working on this project was to put my json data file in a repo on GitHub so that I can use the gh-page link to access the data for the app. 
+
+```js
+const getScore = async function populate() {
+  const requestURL = 'https://stacy-riley.github.io/data/data.json';
+  const request = new Request(requestURL);
+
+  const response = await fetch(request);
+  const scoreData = await response.json();
+```
 
 ### Continued development
 
-I would like to practice more with getting values from objects and looping through objects in general.
+I would like to practice more with getting values from objects and looping through objects in general. Also, I would like to work with more data from api files.
 
 ### Useful resources
 
 - [Resource 1](https://flexiple.com/javascript/loop-through-object-javascript/) - This helped me learn more about how to access the value stored within a key of an object. I really liked this code and will use it going forward.
+
+- [Resource 2](https://victorscholz.medium.com/hosting-a-json-api-on-github-pages-47b402f72603#:~:text=GitHub%20Pages%20is%20an%20excellent,there%20are%20limitations%20to%20that.) 
+- This resource helped me learn that it was possible to use gh-pages to store the json data file needed to pull in the scores needed for this app.
 
 ## Author
 
